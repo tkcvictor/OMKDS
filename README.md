@@ -63,8 +63,8 @@ Ensure you have the following installed:
 ### 📂 Installation & Setup
 #### 1️⃣ Clone the repository and Create .env
 ```sh
-git clone https://github.com/tkcvictor/Comp4212_Project.git
-cd Comp4212_Project
+git clone https://github.com/tkcvictor/OMKDS.git
+cd OMKDS
 ```
 In the server > .env file, you can find some information. Please use your own API key for future use, as this key may not work in the future.
 ```sh
