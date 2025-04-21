@@ -1,0 +1,32 @@
+/* frontend/src/pages/VerifySubscription/VerifySubscription.css */
+.verify-subscription {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.verify-subscription .spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid goldenrod;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.verify-subscription p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
